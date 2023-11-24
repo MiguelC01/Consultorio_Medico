@@ -39,6 +39,7 @@
                 <!--Register-->
                 <form action="{{route('user.login')}}" method="POST" class="formulario__register">
                     @csrf
+
                     <input type="text" placeholder="Correo Electronico" name="email" class="@error('email')
                     border-red-500
                 @enderror">
